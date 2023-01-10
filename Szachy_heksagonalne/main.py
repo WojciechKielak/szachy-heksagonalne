@@ -120,7 +120,6 @@ while running:
 
                             whites_turn = not whites_turn
                         elif hexa.piece is not None:
-                            # who's turn is it
                             if whites_turn == hexa.piece.white:
                                 if current_selected_piece is not hexa.piece and current_selected_piece is not None:
                                     current_selected_piece.delete_moves()
